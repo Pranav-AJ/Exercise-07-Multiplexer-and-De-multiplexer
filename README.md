@@ -47,15 +47,26 @@ If the control input changes to AB = 10, then all the gates are restricted excep
  
  
 ### Procedure
-/* write all the steps invloved */
+```
+Start the module using module projname().
 
+Declare the inputs and outputs along with the select lines according to the multiplexer and demultiplexer.
 
+Use wire to assign intermediate outputs.
+
+Use and, or and not gates to get the desired output
+
+End the module
+
+Generate RTL realization and timing diagram.
+
+```
 
 ### PROGRAM 
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by:A.J.PRANAV
+RegisterNumber: 212222230107
 */
 
 
@@ -65,24 +76,37 @@ RegisterNumber:
 
 ### RTL LOGIC  
 
+# MULTIPLEXER
+![mux](./mux-rtl.png)
 
-
-
+# DEMULTIPLEXER
+![demux](./demux-rtl.png)
 
 
 
 
 ### TIMING DIGRAMS  
 
+# MULTIPLEXER
+![mux](./mux-wave.png)
 
+# DEMULTIPLEXER
+![demux](./demux-wave.png)
++
 
 
 
 ### TRUTH TABLE 
 
+# MULTIPLEXER
+![mux](./mux.png)
+
+# DEMULTIPLEXER
+![demux](./demux.png)
 
 
 
 
 
 ### RESULTS 
+Hence, 4x1 Multiplexer and 1x4 Demultiplexer is been implemented and verified using verilog programming and its output are validated.
