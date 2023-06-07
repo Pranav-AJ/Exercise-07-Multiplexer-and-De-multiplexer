@@ -63,11 +63,13 @@ Generate RTL realization and timing diagram.
 ```
 
 ### PROGRAM 
-/*
+
+```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by:A.J.PRANAV
 RegisterNumber: 212222230107
-*/
+```
+
 
 
 
@@ -92,7 +94,6 @@ RegisterNumber: 212222230107
 
 # DEMULTIPLEXER
 ![demux](./demux-wave.png)
-+
 
 
 
